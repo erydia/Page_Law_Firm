@@ -1,0 +1,54 @@
+.why-choose-us-section {
+    padding: 120px 160px;
+    background-color: #F9FAFB;
+}
+
+.why-choose-us-section h2 {
+    margin-top: 0;
+    position: relative;
+    color: #072C4B;
+}
+
+.why-choose-us-section h2::before {
+    content: '';
+    height: 4px;
+    width: 48px;
+    background-color: #2B70A9;
+    position: absolute;
+    bottom: -24px;
+}
+
+.why-choose-us-section p {
+    width: 450px;
+    color: #475C6E;
+    padding-top: 24px;
+}
+
+.why-choose-us-section .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.why-choose-us-section .content section {
+    width: 30%;
+}
+
+.why-choose-us-section .content div {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-us-section .content h3 {
+    color: #072C4B;
+    margin-bottom: 0px;
+}
+
+.why-choose-us-section .content p {
+    width: 100%;
+    padding: 0;
+}

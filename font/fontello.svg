@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="user" unicode="&#xe800;" d="M714 69q0-60-35-104t-84-44h-476q-49 0-84 44t-35 104q0 48 5 90t17 85 33 73 52 50 76 19q73-72 174-72t175 72q42 0 75-19t52-50 33-73 18-85 4-90z m-143 495q0-88-62-151t-152-63-151 63-63 151 63 152 151 63 152-63 62-152z" horiz-adv-x="714.3" />
+
+<glyph glyph-name="mail" unicode="&#xe801;" d="M929 11v428q-18-20-39-36-149-115-238-189-28-24-46-37t-48-28-57-13h-2q-26 0-57 13t-48 28-46 37q-88 74-238 189-21 16-39 36v-428q0-7 6-13t12-5h822q7 0 12 5t6 13z m0 586v14t-1 7-1 7-3 5-5 4-8 2h-822q-7 0-12-6t-6-12q0-94 83-159 107-84 223-176 4-3 20-17t25-21 25-17 28-16 24-5h2q11 0 24 5t28 16 25 17 25 21 20 17q116 92 224 176 30 24 56 65t26 73z m71 21v-607q0-37-26-63t-63-27h-822q-36 0-63 27t-26 63v607q0 37 26 63t63 26h822q37 0 63-26t26-63z" horiz-adv-x="1000" />
+
+<glyph glyph-name="tag" unicode="&#xe802;" d="M944 830q36-106-8-199t-128-157l18-24q16-28 6-54l-48-158q-12-30-36-46l-464-328q-42-30-64 4l-210 304q-12 18-9 39t21 33l464 328q26 18 54 18l158 0q30 0 48-26l28-40q168 130 114 286-10 28 18 40 32 8 38-20z m-216-468q40 32 34 80l-32-16q-8-4-12-4-18 0-28 18-12 30 16 40l24 14q-48 34-92 0-28-18-34-51t14-61q18-26 51-32t59 12z" horiz-adv-x="960" />
+
+<glyph glyph-name="star-filled" unicode="&#xe803;" d="M297 498q69 152 114 252 6 15 24 15t23-15l114-252q164-18 274-30 15-3 21-18t-6-27l-204-187q33-161 55-270 3-15-10-25t-27-2l-240 136q-144-81-240-136-15-9-28 2t-11 25l56 270q-122 112-204 187-12 11-6 26t21 19z" horiz-adv-x="869" />
+
+<glyph glyph-name="menu" unicode="&#xf008;" d="M68 62q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z" horiz-adv-x="1073.2" />
+</font>
+</defs>
+</svg>

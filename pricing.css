@@ -1,0 +1,47 @@
+.pricing-section {
+    padding: 148px 160px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: flex-start;        
+}
+
+.pricing-section .content {
+    margin-left: 120px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pricing-section .content h2 {
+    color: #072C4B;
+    position: relative;
+}
+
+.pricing-section .content h2::before {
+    content: '';
+    height: 4px;
+    width: 48px;
+    background-color: #2B70A9;
+    position: absolute;
+    bottom: -24px;
+}
+
+.pricing-section .content p {
+    padding-top: 24px;
+    color: #475C6E;  
+}
+
+.pricing-section .content button {
+    border: 2px solid #2B70A9;
+    color: #2B70A9;
+    background: rgba(43, 112, 169, 0.2);
+    margin-top: 24px;
+    width: 160px;
+    transition: 0.1s linear all;
+}
+
+.pricing-section .content button:hover {
+    cursor: pointer;
+    background: rgba(43, 112, 169, 0.1);
+}

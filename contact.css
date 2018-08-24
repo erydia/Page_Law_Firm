@@ -1,0 +1,83 @@
+.contact-section {
+    padding-top: 148px;
+    padding-left: 160px;
+    display: flex;
+    justify-content: space-between
+}
+
+.contact-section h2 {
+    color: #072C4B;
+    position: relative;
+}
+
+.contact-section h2::before{
+    content: '';
+    height: 4px;
+    width: 48px;
+    background-color: #2B70A9;
+    position: absolute;
+    bottom: -24px;
+}
+
+.contact-section p {
+    width: 450px;
+    color: #475C6E;
+    padding-top: 24px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.contact-section .contact-element {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 50px;
+    margin-bottom: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+}
+
+.contact-section .contact-element div {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 16px;
+    margin-left: 32px;
+}
+
+.contact-section .contact-element p {
+    padding: 0;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #475C6E;
+}
+
+.contact-section .contact-element address {
+    font-style: normal;
+}
+
+.contact-section .contact-background {
+    position: relative;
+}
+
+.contact-section .contact-background::before {
+    content: '';
+    width: 832px;
+    height: 767px;
+    background-image: url(image/contact-background.png);
+    background-position: 50% 50%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.contact-section .contact-background img {
+    position: relative;
+    right: 160px;
+    bottom: -4px;
+}

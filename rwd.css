@@ -1,0 +1,316 @@
+@media (max-width: 1400px) {
+
+    .header-section .header-content h1::before {
+        width: 95%;
+    }
+
+    .about-us-section .content h2::before {
+        width: 160px;
+    }
+
+    .why-choose-us-section h2::before {
+        width: 290px;
+    }
+
+    .pricing-section .content h2::before {
+        width: 130px;
+    }
+
+    .contact-section h2::before {
+        width: 195px;
+    }
+
+    .our-expertise-section {
+        background-image: none;
+        background-color: #F2F4F6;
+    }
+
+    .our-expertise-section h2 {
+        text-align: center;
+    }
+
+    .our-expertise-section h2::before{
+        width: 250px;
+    }
+
+    .our-expertise-section p {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+      
+    .our-expertise-section .cards {
+        justify-content: space-around;
+    }
+
+    .our-expertise-section .cards p {
+        text-align: left
+    }
+
+    .contact-section {
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 80px;
+    }
+
+    .contact-section section {
+        padding-bottom: 40px;
+    }
+
+    .contact-section .contact-background img {
+        right: -25%;
+    }
+
+    .footer-section {
+        padding: 80px;
+    }
+
+    .footer-section .footer-list ul {
+        height: 190px;
+    } 
+
+}
+
+
+@media (max-width: 1250px) {
+
+    .header-section .navbar .navbar-logo {
+        margin-left: 80px;
+    }
+
+    .header-section .navbar .navbar-links {
+        margin-right: 80px;
+    }
+    
+    .header-section .header-content {
+        justify-content: flex-start;
+        padding: 0 80px;
+    }
+    
+    .header-section .header-content img {
+        display: none;
+    }
+
+    .about-us-section, .why-choose-us-section, .our-expertise-section {
+        padding: 80px;
+    }
+
+    .about-us-section .content, .pricing-section .content {
+        margin-left: 40px;
+    }
+
+    .pricing-section {
+        padding: 80px;
+        padding-bottom: 0px;
+    }
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .header-section .navbar .navbar-logo {
+        display: none;
+    } 
+
+    .about-us-section {
+        display: block;
+        padding: 80px 40px;
+    }
+    
+    .about-us-section img, .pricing-section img {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    .about-us-section .content, .pricing-section .content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 450px;
+        text-align: center;
+    }
+
+    .pricing-section {
+        display: block;
+        padding: 80px 40px;
+        border-bottom: 2px solid #F2F4F6;
+    }
+
+    .pricing-section .content button {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+
+@media (max-width: 900px) {
+ 
+    .why-choose-us-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why-choose-us-section .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us-section .content section {
+        width: 300px;
+        padding-bottom: 30px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;       
+    }
+
+    .contact-section {
+        padding: 80px;
+    }
+
+    .contact-section .contact-background {
+        display: none;
+    }
+
+    .footer-section .footer-list:first-child {
+        margin-bottom: 30px;
+    }
+
+    .footer-section .footer-list:last-child {
+        margin-left: 0;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+
+    .header-section {
+        padding-top: 12px;
+    }
+
+    .header-section .navbar .navbar-links {
+        margin-right: 20px;
+    }
+   
+    .header-section .navbar .navbar-links .button.menu{
+        display: block
+    }
+
+    .header-section .navbar .navbar-links li:not(:last-child){
+        display: none
+    }
+
+    .header-section .header-content {
+        padding: 0px 30px;
+    }
+
+    .header-section .header-content div  {
+        margin-top: 40px;
+    }
+
+    .header-section .header-content div h1 {
+        font-size: 40px;
+        padding-right: 20px; 
+    }
+
+    .header-section .header-content div p {
+        margin-top: 40px;
+        padding-right: 40px;
+        font-size: 15px;
+    }
+
+    .header-section .header-content .button-section {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+
+    .header-section .header-content .button-section button {
+        margin-right: 22px;
+    }
+
+    .header-section .header-content .button-section button:last-child {
+        margin-right: 0px;
+    }
+
+    .our-expertise-section p {
+        width: 350px;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+
+    .about-us-section img, .pricing-section img {
+        display: none;
+    }
+
+    .about-us-section .content, .pricing-section .content {
+        width: 100%;
+    }
+
+    .about-us-section section h2, .pricing-section section h2 {
+        margin-top: 0;
+    }
+
+    .why-choose-us-section, .our-expertise-section, .footer-section, .contact-section{
+        padding: 40px;
+    }
+    
+    .why-choose-us-section p, .our-expertise-section p, .contact-section P{
+        width: 100%;
+    }
+
+    .why-choose-us-section h2, .our-expertise-section h2{
+        font-size: 36px;
+    }
+
+    .why-choose-us-section h2::before {
+        width: 260px;
+    }
+
+    .our-expertise-section h2::before {
+        width: 230px;
+    }
+
+    .our-expertise-section .cards div {
+        padding: 28px 24px;
+        height: 260px;
+    }
+
+    .contact-section .contact-element {
+        width: 100%;
+        height: 70px;
+    }
+
+    .contact-section .contact-element div {
+        margin-left: 20px;
+    }
+
+    .contact-section .contact-element  p {
+        line-height: 20px;
+    }
+
+    .footer-section .footer-list ul {
+        width: 100%;
+        flex-wrap: nowrap
+    }
+
+    .footer-section .footer-list:last-child {
+        margin-top: 30px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    
+    .why-choose-us-section h2::before {
+        width: 200px;
+    }
+
+}
