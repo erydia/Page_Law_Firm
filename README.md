@@ -1,4 +1,4 @@
-**Page example where I used my knowledge on:**
+**Page example with:**
 * HTML5
 * Flexbox
 
