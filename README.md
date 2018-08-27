@@ -1,4 +1,4 @@
 **Page example with:**
-* HTML5
-* Flexbox
+- [x] HTML5
+- [x] Flexbox
 
