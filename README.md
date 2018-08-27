@@ -1,4 +1,4 @@
 **Page example where I used my knowledge on:**
-<li>HTML5
-<li>Flexbox
+* HTML5
+* Flexbox
 
